@@ -1,0 +1,12 @@
+minio:
+  url: {MINIO_URL}
+  access-key: {ACCESS_KEY}
+  secret-key: {SECRET_KEY}
+  bucket: {BUCKET_NAME}
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      max-file-size: 200MB
+      max-request-size: 200MB
