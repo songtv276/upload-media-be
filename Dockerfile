@@ -1,5 +1,5 @@
 # Use a specific OpenJDK version for reproducibility
-FROM openjdk:17.0.12-jdk-alpine
+FROM openjdk:17.0.11-jdk-alpine
 
 LABEL authors="Admin"
 
